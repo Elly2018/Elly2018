@@ -10,3 +10,87 @@
 	path = third_party/cglm
 	url = https://github.com/recp/cglm.git
 	branch = v0.8.5
+[submodule "third_party/libpng"]
+	path = third_party/libpng
+	url = https://github.com/glennrp/libpng.git
+	branch = v1.6.38
+[submodule "third_party/assimp"]
+	path = third_party/assimp
+	url = https://github.com/assimp/assimp.git
+	branch = v5.2.5
+[submodule "third_party/vulkan"]
+	path = third_party/vulkan
+	url = https://github.com/KhronosGroup/Vulkan-Headers.git
+	branch = v1.3.224
+[submodule "third_party/spirv-cross"]
+	path = third_party/spirv-cross
+	url = https://github.com/KhronosGroup/SPIRV-Cross.git
+	branch = sdk-1.3.224.1
+[submodule "third_party/libjpeg"]
+	path = third_party/libjpeg
+	url = https://github.com/thorfdbg/libjpeg.git
+	branch = master
+[submodule "third_party/libtiff"]
+	path = third_party/libtiff
+	url = https://gitlab.com/libtiff/libtiff.git
+	branch = v3.5.2
+[submodule "third_party/HWCPipe"]
+	path = third_party/HWCPipe
+	url = https://github.com/ARM-software/HWCPipe.git
+	branch = v1.0
+[submodule "third_party/cr"]
+	path = third_party/cr
+	url = https://github.com/fungos/cr.git
+	branch = master
+[submodule "third_party/fmt"]
+	path = third_party/fmt
+	url = https://github.com/fmtlib/fmt.git
+	branch = 9.1.0
+[submodule "third_party/opencl"]
+	path = third_party/opencl
+	url = https://github.com/KhronosGroup/OpenCL-Headers.git
+	branch = v2022.05.18
+[submodule "third_party/bullet3"]
+	path = third_party/bullet3
+	url = https://github.com/bulletphysics/bullet3.git
+	branch = 3.24
+[submodule "third_party/cmake"]
+	path = third_party/cmake
+	url = https://github.com/Kitware/CMake.git
+	branch = v3.24.2
+[submodule "third_party/zlib"]
+	path = third_party/zlib
+	url = https://github.com/madler/zlib.git
+	branch = v1.2.12
+[submodule "third_party/xxHash"]
+	path = third_party/xxHash
+	url = https://github.com/Cyan4973/xxHash.git
+	branch = v0.8.1
+[submodule "third_party/libsoundio"]
+	path = third_party/libsoundio
+	url = https://github.com/andrewrk/libsoundio.git
+	branch = 2.0.0
+[submodule "third_party/ctre"]
+	path = third_party/ctre
+	url = https://github.com/hanickadot/compile-time-regular-expressions.git
+	branch = v3.7
+[submodule "third_party/libyaml"]
+	path = third_party/libyaml
+	url = https://github.com/yaml/libyaml.git
+	branch = 0.2.5
+[submodule "third_party/iniparser"]
+	path = third_party/iniparser
+	url = https://github.com/ndevilla/iniparser.git
+	branch = v4.1
+[submodule "third_party/lua_bridge"]
+	path = third_party/lua_bridge
+	url = https://github.com/vinniefalco/LuaBridge.git
+	branch = 2.8
+[submodule "third_party/pprint"]
+	path = third_party/pprint
+	url = https://github.com/p-ranav/pprint.git
+	branch = v0.9.1
+[submodule "third_party/cjson"]
+	path = third_party/cjson
+	url = https://github.com/DaveGamble/cJSON.git
+	branch = v1.7.15
