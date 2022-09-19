@@ -2,3 +2,11 @@
 	path = third_party/glfw
 	url = https://github.com/glfw/glfw.git
 	branch = 3.3.8
+[submodule "third_party/imgui"]
+	path = third_party/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = docking
+[submodule "third_party/cglm"]
+	path = third_party/cglm
+	url = https://github.com/recp/cglm.git
+	branch = v0.8.5
