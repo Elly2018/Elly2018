@@ -25,7 +25,7 @@
 [submodule "third_party/HWCPipe"]
 	path = third_party/HWCPipe
 	url = https://github.com/ARM-software/HWCPipe.git
-	branch = v1.0
+	branch = 10d0f39
 [submodule "third_party/cr"]
 	path = third_party/cr
 	url = https://github.com/fungos/cr.git
