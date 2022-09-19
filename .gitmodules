@@ -37,7 +37,7 @@
 [submodule "third_party/opencl"]
 	path = third_party/opencl
 	url = https://github.com/KhronosGroup/OpenCL-Headers.git
-	branch = v2022.05.18
+	branch = main
 [submodule "third_party/bullet3"]
 	path = third_party/bullet3
 	url = https://github.com/bulletphysics/bullet3.git
