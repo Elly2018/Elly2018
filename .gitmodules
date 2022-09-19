@@ -17,7 +17,7 @@
 [submodule "third_party/vulkan"]
 	path = third_party/vulkan
 	url = https://github.com/KhronosGroup/Vulkan-Headers.git
-	branch = v1.3.224
+	branch = sdk-1.3.224
 [submodule "third_party/spirv-cross"]
 	path = third_party/spirv-cross
 	url = https://github.com/KhronosGroup/SPIRV-Cross.git
