@@ -34,12 +34,15 @@ elseif(APPLE)
 endif()
 
 target_include_directories(Ellyality PUBLIC "${Main}")
-target_include_directories(Ellyality PUBLIC "${Lib}/vulkan/include")
+target_include_directories(Ellyality PUBLIC "$ENV{VK_SDK_PATH}/include")
 target_include_directories(Ellyality PUBLIC "${Lib}/cglm/include")
 target_include_directories(Ellyality PUBLIC "${Lib}/glfw/include")
 
+target_link_directories(Ellyality PUBLIC "$ENV{VK_SDK_PATH}/Lib")
 target_link_directories(Ellyality PUBLIC "${Lib}/cglm/Debug")
 target_link_directories(Ellyality PUBLIC "${Lib}/glfw/src/Debug")
 
+target_link_libraries(Ellyality PUBLIC "VkLayer_utils.lib")
+target_link_libraries(Ellyality PUBLIC "vulkan-1.lib")
 target_link_libraries(Ellyality PUBLIC "cglm.lib")
 target_link_libraries(Ellyality PUBLIC "glfw3.lib")

@@ -22,11 +22,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 #include <ellyality.h>
+#include <iostream>
+#include <vector>
 #include <stdexcept>
 
+#include <vulkan/vulkan.h>
 #define GLFW_INCLUDE_VULKAN
 #include <glfw/glfw3.h>
-#include <vulkan/vulkan.h>
 
 const uint32_t WIDTH = 800;
 const uint32_t HEIGHT = 600;
@@ -64,6 +66,20 @@ void createInstance() {
     if (vkCreateInstance(&createInfo, nullptr, &instance) != VK_SUCCESS) {
         throw std::runtime_error("failed to create instance!");
     }
+
+
+
+    uint32_t extensionCount = 0;
+    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
+
+    std::vector<VkExtensionProperties> extensions(extensionCount);
+    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, extensions.data());
+
+    std::cout << "available extensions:\n";
+
+    for (const auto& extension : extensions) {
+        std::cout << '\t' << extension.extensionName << '\n';
+    }
 }
 
 void initVulkan() {
@@ -77,8 +93,8 @@ void mainloop() {
 }
 
 void cleanup() {
+    vkDestroyInstance(instance, nullptr);
     glfwDestroyWindow(window);
-
     glfwTerminate();
 }
 
