@@ -1,5 +1,17 @@
+bin
+CMakeFiles
+Ellyality.dir
+x64
+*.sln
+*.vcxproj
+*.filters
+*.user
+CMakeCache.txt
+cmake_install.cmake
+
 # Prerequisites
 *.d
+.vs
 
 # Object files
 *.o
