@@ -21,9 +21,9 @@
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
   <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
   <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
-  <img alt="Electron" src="https://img.shields.io/badge/Electron-Black?style=flat&logo=Electron&logoColor=white&color=%233a3f50">
-  <img alt="Unity" src="https://img.shields.io/badge/Unity-Black?style=flat&logo=Unity&logoColor=white&color=%23111111">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Godot-Black?style=flat&logo=godot-engine&logoColor=white&color=%234d90c1">
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-Black?style=flat-square&logo=Electron&logoColor=white&color=%233a3f50">
+  <img alt="Unity" src="https://img.shields.io/badge/Unity-Black?style=flat-square&logo=Unity&logoColor=white&color=%23111111">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Godot-Black?style=flat-square&logo=godot-engine&logoColor=white&color=%234d90c1">
 </p>
 
 <h3>My Project</h3>
@@ -56,3 +56,6 @@
 </table>
 
 <h3>Contact Me</h3>
+<span><a href="https://github.com/Elly2018"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a></span>
+<span><a href="https://x.com/ellyality"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a></span>
+<span><a href="https://www.youtube.com/@ellywithpluto125"><img alt="Static Badge" src="https://img.shields.io/badge/Youtube-Black?style=for-the-badge&logo=Youtube&logoColor=white&color=%23ff0839" /></a></span>
