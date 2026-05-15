@@ -57,7 +57,7 @@
    <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Verteilen/Verteilen?style=flat-square&labelColor=343b41"/></td>
   </tr>
   <tr>
-   <td><a href="https://github.com/Ellyality-Godot-Hub/Plugin-Videoplayer">Godot VideoPlayer</a></td>
+   <td><a href="https://github.com/Ellyality-Godot-Hub/Plugin-Videoplayer">GameEngine FFmpeg Plugin</a></td>
    <td><img alt="Stars" src="https://img.shields.io/github/stars/Ellyality-Godot-Hub/Plugin-Videoplayer?style=flat-square&labelColor=343b41"/></td>
    <td><img alt="Forks" src="https://img.shields.io/github/forks/Ellyality-Godot-Hub/Plugin-Videoplayer?style=flat-square&labelColor=343b41"/></td>
    <td><img alt="Issues" src="https://img.shields.io/github/issues/Ellyality-Godot-Hub/Plugin-Videoplayer?style=flat-square&labelColor=343b41"/></td>
